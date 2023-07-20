@@ -1,0 +1,105 @@
+
+Note- Developed Application is tested with POSTMAN Software
+
+# Test Case To Create users Table Operation
+
+{
+    "user_type": "Admin",
+    "full_name": "Shubham Sahu",
+    "username" : "Shubham",
+    "email": "shubham@gmail.com",
+    "user_password": "dgdgdgd",
+    "submitted_by": "1"
+}
+
+# Test Case To Update users Table operation
+
+{
+    "id": 1,
+    "user_type": "Admin",
+    "full_name": "Shubham Kumar Sahu",
+    "username" : "Shubham",
+    "email": "shubham@gmail.com",
+    "user_password": "dgdgdgd",
+    "submitted_by": 1
+}
+
+# Test Case To Create courses Table Operation
+
+{
+    "course_name": "EEE",
+    "department_id": "4",
+    "semester" : 3,
+    "class": "CloudComputing",
+    "lecture_hours": 2.5,
+    "submitted_by": 1
+}
+
+# Test Case To Update courses Table Operation
+
+{
+    "id": 1,
+    "course_name": "CS",
+    "department_id": "4",
+    "semester" : 3,
+    "class": "CloudComputing",
+    "lecture_hours": 2.5,
+    "submitted_by": 1
+}
+
+TEST Case To Create attendance_log Table Operation
+
+{
+    "student_id": 1,
+    "course_id": 1,
+    "present" : 0,
+    "submitted_by": 1
+}
+
+TEST Case To Update attendance_log Table Operation
+
+{
+    "id": 1,
+    "student_id": 1,
+    "course_id": 1,
+    "present" : 1,
+    "submitted_by": 1
+}
+
+TEST Case To Create departments Table Operation
+
+
+{
+    "id": 4,
+    "department_name": "EEE",
+    "submitted_by": 1
+}
+
+TEST Case To Update departments Table Operation
+
+{
+    "id": 4,
+    "department_name": "CS",
+    "submitted_by": 1
+}
+
+Test Case To Create students Table Operation
+
+{
+    "id": 1,
+    "full_name": "Shubham Sahu",
+    "department_id": 3,
+    "class": "Machine",
+    "submitted_by": 2
+}
+
+Test Case To Update students Table Operation
+
+{
+    "id": 1,
+    "full_name": "Shubham Sahu",
+    "department_id": 3,
+    "class": "Network",
+    "submitted_by": 2
+}
+
